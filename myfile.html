@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+<script language = "javascript">
+
+function Difference() {
+	var inputNum1;
+	var inputNum2;
+	inputNum1 = prompt('Enter the larger number: ', 0);
+	inputNum2 = prompt('Enter the smaller number: ', 0);
+	var outputTotal = inputNum1 - inputNum2;
+	alert('Answer is: ' +outputTotal);
+	
+}
+function Multiply() {
+	var inputNum1;
+	var inputNum2;
+	inputNum1 = prompt('Enter the first number: ', 0);
+	inputNum2 = prompt('Enter the second number: ', 0);
+	var outputTotal = inputNum1 * inputNum2;
+	alert('Answer is: ' +outputTotal);
+	
+}
+function Division() {
+	var inputNum1;
+	var inputNum2;
+	inputNum1 = prompt('Enter the larger number: ', 0);
+	inputNum2 = prompt('Enter the smaller number: ', 0);
+	var outputTotal = inputNum1 / inputNum2;
+	alert('Answer is: ' +outputTotal);
+	
+}
+function Sum() {
+	var inputNum1;
+	var inputNum2;
+	inputNum1 = prompt('Enter the first number: ', 0);
+	inputNum2 = prompt('Enter the second number: ', 0);
+	inputNum1 = parseInt(inputNum1);
+    inputNum2 = parseInt(inputNum2);
+	var outputTotal = inputNum1 + inputNum2;
+	alert('Answer is: ' +outputTotal);
+	
+}
+function Name() {
+	var inputName1;
+	var inputName2;
+	inputName1 = prompt('Enter your first name: ');
+	inputName2 = prompt('Enter the second name: ');
+	alert('Answer is: ' +inputName1 + ' ' +inputName2);
+	
+}
+</script>
+</head>
+
+<body>
+<form name = "myForm">
+	<h1><p> Operations with Numbers</p>
+		<p> You will be asked for two numbers</p>
+		<p> You will be shown the result between the numbers</p></h1>
+		
+<input type = "button" value = "Difference" onclick="Difference()";>
+<input type = "button" value = "Multiply" onclick="Multiply()";>
+<input type = "button" value = "Division" onclick="Division()";>
+<input type = "button" value = "Add" onclick="Sum()";>
+
+<h1><p> Write your name</p>
+		<p> You will be asked for your first and second names</p></h1>
+
+<input type = "button" value = "Name" onclick="Name()";>
+</body>
+</html>
